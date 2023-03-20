@@ -46,7 +46,7 @@ class TestPlayer:
     def test_has_many_results(self):
         '''Player has many results.'''
         game = Game("Skribbl.io")
-        player = Player('Saaammmm')
+        player = Player('Steevey')
         player_2 = Player('ActuallyTopher')
         result_1 = Result(player, game, 2000)
         result_2 = Result(player, game, 3500)
@@ -114,7 +114,7 @@ class TestPlayer:
         game = Game("Skribbl.io")
         game_2 = Game("Scattegories")
         player = Player('Saaammmm')
-        player_2 = Player('ActuallyTopher')
+        player_2 = Player('ActuallyThomas')
         Result(player, game, 2000)
         Result(player, game_2, 19)
         Result(player, game, 1900)
@@ -128,7 +128,7 @@ class TestPlayer:
     def test_add_result(self):
         '''Player's result was created.'''
         game = Game("Skribbl.io")
-        player = Player('Saaammmm')
+        player = Player('Greggy')
         result_1 = Result(player, game, 2000)
         result_2 = Result(player, game, 5000)
 

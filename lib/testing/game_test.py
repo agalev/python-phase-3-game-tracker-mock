@@ -87,7 +87,7 @@ class TestGame:
     def test_average_score(self):
         '''test average_score()'''
         game = Game("Skribbl.io")
-        player = Player('Nick')
+        player = Player('Jim')
         Result(player, game, 5000)
         Result(player, game, 4999)
         Result(player, game, 5000)
